@@ -1,0 +1,66 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<title> Login Page </title>  
+<style> 
+body {  
+    
+  font-family: Calibri, Helvetica, sans-serif;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}  
+h1{
+    margin: 100px 0px; 
+}
+button {   
+       background-color: #ee2637;   
+       width: 100%;  
+        color: orange;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+    padding: 0px 500px;
+    }   
+ input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 10px 10px;  
+        padding: 10px 10px;       
+        box-sizing: border-box;   
+    }  
+ button:hover {   
+        opacity: 0.7;   
+    }   
+  .cancelbtn {   
+        width: auto;   
+        padding: 10px 18px;  
+        margin: 10px 5px;  
+    }   
+    
+</style>   
+</head>    
+<body background="https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5920.jpg"> 
+       
+    <form action="/loginsubmit" method="GET"> 
+        <center> <h1 style = "padding:0% 0% ;" > Student Login Form </h1> 
+            <img src="https://cdn-icons-png.flaticon.com/128/1077/1077063.png">
+        </center> 
+
+            <label style="color:bisque" >Username/email : </label>   
+            <input type="text" placeholder="Enter Username/email" name="email"  required>  
+            <label style="color:bisque" >Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Login</button>   
+            <center><input type="checkbox" checked="checked" style="color:azure;"> Remember me   </center>
+            <br>
+           <center>  Forgot <a href="#"> password? </a>   </center>
+      
+    </form>   
+</body>     
+</html> 
+

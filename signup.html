@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title> SignUp page </title>
+        <style>
+            Body {  
+                font-family: Calibri, Helvetica, sans-serif;  
+                background-size: auto;
+                background-repeat: no-repeat ;
+                background-attachment: fixed;
+                background-size: cover;
+                
+            }       
+            h1{
+                margin: 100px 0px; 
+            }
+            form {   
+                padding: 0px 500px;
+            }   
+             input[type=text], input[type=password] {   
+                width: 100%;   
+                margin: 10px 10px;  
+                padding: 10px 10px;       
+                box-sizing: border-box;   
+             }   
+        </style>
+    </head>
+    <body background="https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000" > 
+        <center> <h1 style="color:black"> Signup </h1> </center>   
+        <form action="/Signupsubmit" method="GET"> 
+            <label style="color:black;">First Name : </label>  
+            <input type="text" name="Fname">
+            <label style="color:black;">Email : </label>   
+            <input type="text" name="mail" > 
+            <label style="color:black;">Password : </label>   
+            <input type="password" placeholder="create Password" name="password" required>
+           <center> <button type="submit" class="cancelbtn">submit</button>    </center> 
+        </form>
+    </body>
+</html>
